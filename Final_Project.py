@@ -1,4 +1,4 @@
-A
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -109,7 +109,7 @@ else:
     joblib.dump((model, X_test, y_test, y_pred), MODEL_PATH)
 
 # Tabs
-tabs = st.tabs(["🔮 Prediction", "📊 EDA", "📈 Performance"])
+tabs = st.tabs(["🔮 Prediction", "📊 EDA", "📈 Performance"]) 
 
 # predicting section
 with tabs[0]:
